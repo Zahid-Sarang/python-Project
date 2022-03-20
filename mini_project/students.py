@@ -7,7 +7,7 @@ class Student:
         self.root=root
         self.root.title("Student Managment")
         self.root.geometry("1350x700+0+0")
-        title=Label(self.root,text="Student Management System",bd=10,relief=GROOVE,font=("times new roman",40,"bold"),bg="yellow",fg="red")
+        title=Label(self.root,text="Student Management System",bd=10,relief=GROOVE,font=("times new roman",40,"bold"),bg="#031F3c",fg="white")
         title.pack(side=TOP,fill=X)
 
         #=========All variables=======#
